@@ -1,22 +1,28 @@
 package ex2;
+
+import java.util.ArrayList;
+import java.util.List;
 /**
- * Клас для виконання обчислень.
- * Агрегує об'єкт CalculationData.
+ * Клас для обчислення чергувань і збереження результатів у колекції.
  */
 public class CalSolver {
-    private CalData data;
+    private List<CalData> results = new ArrayList<>();
+
     /**
-     * Конструктор класу.
-     * @param number Вхідне число
+     * Додає новий результат у колекцію.
+     *
+     * @param number число для аналізу
      */
-    public CalSolver(int number) {
-        this.data = new CalData(number);
+    public void addCalculation(int number) {
+        results.add(new CalData(number));
     }
+
     /**
-     * Отримує результат обчислень.
-     * @return Об'єкт CalculationData
+     * Повертає всі результати.
+     *
+     * @return список об'єктів CalData
      */
-    public CalData getResult() {
-        return data;
+    public List<CalData> getResults() {
+        return results;
     }
 }

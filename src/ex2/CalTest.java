@@ -4,6 +4,7 @@ import java.util.Scanner;
 /**
  * Клас для тестування коректності результатів обчислень та серіалізації.
  */
+/** 
 public class CalTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,3 +24,4 @@ public class CalTest {
         scanner.close();
     }
 }
+    */

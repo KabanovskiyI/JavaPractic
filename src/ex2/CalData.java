@@ -1,5 +1,7 @@
 package ex2;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Клас, що містить параметри та результати обчислень.
  * Реалізує Serializable для можливості серіалізації.
