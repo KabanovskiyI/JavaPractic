@@ -1,7 +1,6 @@
 package ex2;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+
 /**
  * Клас, що містить параметри та результати обчислень.
  * Реалізує Serializable для можливості серіалізації.
@@ -49,10 +48,11 @@ public class CalData implements Serializable {
         in.defaultReadObject();
         binaryRep = Integer.toBinaryString(number);
     }
-
+    public String getBinaryRep(){
+        return binaryRep;
+    }
     @Override
     public String toString() {
-        return "Число: " + number + ", Двійковий вигляд: " + binaryRep +
-               ", Чергування: " + alternations;
+        return String.format("%d || %d || %d", number, alternations, binaryRep);
     }
 }

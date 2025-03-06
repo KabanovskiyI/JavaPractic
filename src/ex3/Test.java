@@ -5,7 +5,7 @@ import ex2.CalSolver;
 
 /**
  * Головний клас для демонстрації роботи програми.
- */
+ 
 public class Test {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -27,3 +27,5 @@ public class Test {
         scanner.close();
     }
 }
+
+*/

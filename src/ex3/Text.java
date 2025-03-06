@@ -10,7 +10,10 @@ public class Text implements Result{
     public void display(List<CalData> results) {
         System.out.println("Результати обчислень:");
         for (CalData data : results) {
-            System.out.println(data);
+            System.out.println("Число: " + data.getNumber());
+            System.out.println("Чергування: " + data.getAlternations());
+            System.out.println("Бінарне подання: " + data.getBinaryRep());
+            System.out.println();
         }
     }
 }
