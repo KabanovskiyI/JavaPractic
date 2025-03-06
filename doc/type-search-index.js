@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ex2","l":"CalData"},{"p":"ex2","l":"CalSolver"},{"p":"ex2","l":"CalStorege"},{"p":"ex2","l":"CalTest"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ex3","l":"Factory"},{"p":"ex3","l":"Result"},{"p":"ex3","l":"Test"},{"p":"ex3","l":"Text"}];updateSearchResults();
