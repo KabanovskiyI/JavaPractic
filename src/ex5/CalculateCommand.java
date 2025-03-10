@@ -1,12 +1,11 @@
 package ex5;
+
 import ex2.CalSolver;
 import java.util.List;
-/**
- * Команда для виконання обчислень.
- */
-class CalculateCommand implements Command {
-    private CalSolver solver;
-    private int number;
+
+public class CalculateCommand implements Command {
+    private final CalSolver solver;
+    private final int number;
 
     public CalculateCommand(CalSolver solver, int number) {
         this.solver = solver;
